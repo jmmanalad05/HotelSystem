@@ -1,0 +1,31 @@
+Functional Requirements
+These are the features and functionalities your system must have.
+
+🔹 User Management
+✔ Users can register and log in (Customers, Admins, and Hotel Staff).
+✔ Admins can add, edit, and delete users.
+✔ Authentication system using JWT or session-based login.
+
+🔹 Room Management
+✔ Admins can add, update, and delete room details (room number, type, price, availability).
+✔ Customers can view available rooms before booking.
+✔ Room status updates automatically after booking.
+
+🔹 Booking System
+✔ Customers can book a room by selecting check-in and check-out dates.
+✔ System ensures no double bookings for the same room.
+✔ Customers can cancel bookings before check-in.
+✔ Admins can view and manage all bookings.
+
+🔹 Payment Processing
+✔ Integrate Stripe or PayPal for online payments.
+✔ Generate invoices/receipts for bookings.
+
+🔹 Notifications & Reports
+✔ Send email/SMS notifications for booking confirmations and reminders.
+✔ Admins can generate daily/monthly revenue reports.
+
+🔹 Additional Features (Optional)
+✔ Reviews & Ratings – Allow customers to review rooms.
+✔ Loyalty Program – Reward frequent guests.
+✔ Multi-language & Currency Support – For international customers.
